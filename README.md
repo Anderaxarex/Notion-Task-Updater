@@ -1,15 +1,15 @@
 # How To Get The Database ID
-=================
+
 You should open the python file and replace "DATABASE_ID" with the id of the Task List page that is generated autmatically when you get a Notion account.
 to get the database id of the page you want to access the browser version and navigate to the page. the url will look something like this:
-===================
+
 https://www.notion.so/XXX?v=ZZZ
-===================
+
 XXX is the databse id. It should be 32 characters long, however if anything doesn't match you can consult the notion api documentation at [https://developers.notion.com/docs]
 
 
 # How To Schedule The Execution
-===================
+
 You can either use a service like Heroku and change the script like so:
 
 ```python
@@ -73,5 +73,4 @@ or you can use the windows task scheduler and have a task repeated every week, f
 
 
 # How To Run Script
-===================
 while I will not insult your intelligence by telling you how to run a python script, I have included a .bat file (for windows) and a .sh file (for Linux) to get the required libraries. It's only requests so most people should have it already installed, but just in case you can get it that way. 
