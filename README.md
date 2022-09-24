@@ -7,6 +7,7 @@ https://www.notion.so/XXX?v=ZZZ
 
 XXX is the databse id. It should be 32 characters long, however if anything doesn't match you can consult the notion api documentation at [https://developers.notion.com/docs]
 
+You also should replace INTEGRATION_TOKEN with the secret token that is given to you by the Notion Integration. It is supposed that you have already created an integration and shared the needed pages with said integration. You can go to [https://developers.notion.com] to find more information.
 
 # How To Schedule The Execution
 
