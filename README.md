@@ -1,6 +1,5 @@
 # How To Get The Database ID
 =================
-
 You should open the python file and replace "DATABASE_ID" with the id of the Task List page that is generated autmatically when you get a Notion account.
 to get the database id of the page you want to access the browser version and navigate to the page. the url will look something like this:
 ===================
@@ -11,7 +10,6 @@ XXX is the databse id. It should be 32 characters long, however if anything does
 
 # How To Schedule The Execution
 ===================
-
 You can either use a service like Heroku and change the script like so:
 
 ```python
